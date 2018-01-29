@@ -1,0 +1,105 @@
+body {
+	background: #fff;
+	margin: 0;
+	color: #000;
+	font: 14px/24px Georgia, serif;
+}
+
+
+.header-logo {
+	text-align: center;
+	margin-bottom: 63px;
+}
+
+.wrapper {
+	width: 1063px;
+	margin: 0 auto;
+}
+
+.nav__list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+
+.nav__list li {
+	display: inline-block;
+	padding: 0 20px;
+	text-transform: uppercase;
+}
+
+.nav__list a {
+	color: #626262;
+	text-decoration: none;
+}
+
+.nav__list a:hover {
+	color: red;
+}
+
+.nav__list a:active {
+	color: green;
+}
+
+
+.header {
+	margin-top: 82px;
+}
+
+.main {
+	margin: 0;
+	padding: 0;
+}
+
+.main .main-photo {
+	display: block;
+	margin-top: 36px;
+	margin-bottom: 50px;
+}
+
+.main .category {
+	color: #b4ad9e;
+	text-transform: uppercase;
+	display: inline-block;
+	font-family: Arial, sans-serif;
+
+}
+
+.main h1{
+	margin: 28px 0 22px 0;
+	color: #626262;
+	font-size: 36px;
+}
+
+.main p {
+	margin: 0;
+	padding: 0;
+	color: #626262;
+	width: 910px;
+	margin-bottom: 23px;
+}
+
+.main .italic {
+	font-style: italic;
+}
+
+.main .bold {
+	font-weight: bold;
+}
+
+.main h2 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 35px;
+}
+
+.main ul {
+	margin-left: 15px;
+	padding: 0;
+}
+
+.main .ipsum_dolor:active{
+	color: red;
+}
