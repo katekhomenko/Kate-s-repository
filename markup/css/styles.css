@@ -5,10 +5,9 @@ body {
 	font: 14px/24px Georgia, serif;
 }
 
-
 .header-logo {
+	margin: 82px 0 60px 0;
 	text-align: center;
-	margin-bottom: 63px;
 }
 
 .wrapper {
@@ -21,8 +20,8 @@ body {
 	padding: 0;
 	list-style: none;
 	text-align: center;
+	font-family: 'Times Mew Roman', Georgia, serif;
 }
-
 
 .nav__list li {
 	display: inline-block;
@@ -43,14 +42,10 @@ body {
 	color: green;
 }
 
-
-.header {
-	margin-top: 82px;
-}
-
 .main {
 	margin: 0;
 	padding: 0;
+	color: #626262;
 }
 
 .main .main-photo {
@@ -59,26 +54,23 @@ body {
 	margin-bottom: 50px;
 }
 
-.main .category {
+.main .category,
+.main .comment {
 	color: #b4ad9e;
 	text-transform: uppercase;
 	display: inline-block;
 	font-family: Arial, sans-serif;
-
 }
 
 .main h1{
 	margin: 28px 0 22px 0;
-	color: #626262;
-	font-size: 36px;
+	font: bold 36px/24px 'Times New Roman', Georgia, serif;
 }
 
 .main p {
 	margin: 0;
 	padding: 0;
-	color: #626262;
 	width: 910px;
-	margin-bottom: 23px;
 }
 
 .main .italic {
@@ -90,16 +82,76 @@ body {
 }
 
 .main h2 {
-	margin: 0;
+	margin: 24px 0 35px 0;
 	padding: 0;
-	margin-bottom: 35px;
+	font-size: 30px;
 }
 
 .main ul {
-	margin-left: 15px;
-	padding: 0;
+	padding-left: 18px;
 }
 
-.main .ipsum_dolor:active{
+.main .ipsum_dolor {
 	color: red;
 }
+
+.main .ipsum_dolor:hover {
+	color: brown;
+}
+
+.main .ipsum_dolor:active {
+	color: black;
+}
+
+.main h3 {
+	margin: 30px 0 33px 0;
+	font-size: 24px;
+}
+
+.main ol {
+	margin: 0;
+	padding-left: 15px;
+}
+
+.main h4 {
+	font-size: 18px;
+	margin: 30px 0 35px 0;
+}
+
+.main blockquote {
+	margin: 0 0 25px 20px;
+	text-align: center;
+	width: 910px;
+}
+
+.main .comment {
+	text-decoration: none;
+}
+
+.main .comment:active {
+	color: green;
+}
+
+.main .comment:hover {
+	color: red;
+}
+
+.footer {
+	background-color: #f0f0f0;
+	height: 100px;
+	margin: 100px auto 0 auto;
+	box-sizing: border-box;
+	width: 1200px;
+}
+
+.footer .social {
+	display: inline-block;
+	position: relative;
+	top: 35px;
+	left: 990px;
+}
+
+.footer a {
+	margin-left: 20px;
+}
+
